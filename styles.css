@@ -3,16 +3,19 @@
     margin: 0;
   
 }
+
+/* Margenes */
 #navbar{
     padding: 0;
     background-color: black;
+    
 }
 
-#titulo{
-   padding: 0;
+.padi{
+  padding-bottom: 150px;
 }
 
-
+/* Botones redes lateral */
  
 .buttons {
     position: fixed;
@@ -21,10 +24,6 @@
     top: 100px;
     z-index: 2000;
     
-  }
-  
-  .padi{
-      padding-bottom: 150px;
   }
   
   .buttons ul {
@@ -48,8 +47,11 @@
   .buttons a:hover {
     transform: scale(1.2);
   }
-
-
+  .bor{
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    }
+/* Background  */
   .gradient{
         background: #666664;  /* fallback for old browsers */
       background: -webkit-linear-gradient(to bottom, #000000, #666664);  /* Chrome 10-25, Safari 5.1-6 */
@@ -61,7 +63,7 @@
 .back{
     background: #666664;
 }
-
+/* Efecto neon borde */
 .borderneon{
   padding-top: 0.5%;
   padding-bottom: 0.5%;
@@ -75,6 +77,8 @@
   inset 0 0 0.5vw  0.2vw #fff7f7;
   border-radius: 1.5rem;
 }
+
+/* Efecto fuente neon */
 .txneon{
   padding-top: 3%;
   font-family: neon-future;
@@ -87,6 +91,8 @@
   .1vw 0vw   5vw #710be5, .2vw 0vw  20vw #710be5, .4vw 0vw  10vw #710be5,
   .1vw 0vw  10vw #710be5, .2vw 0vw  30vw #710be5, .4vw 0vw  10vw #710be5;
 }
+
+/* Efecto neon borde y fuente */
 .neon{
   padding-top: 3%;
   font-family: neon-future;
@@ -108,11 +114,8 @@
   .1vw 0vw  10vw #710be5, .2vw 0vw  30vw #710be5, .4vw 0vw  10vw #710be5;
 
 }
-.bor{
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-}
 
+/* Flecha abajo inicio */
 .flecha,
 .flecha:before {
   position: absolute;
@@ -147,6 +150,7 @@
   animation-name: flecha
 }
 
+/* Efecto hover proyectos */
 .hov{
   opacity: 0;
   padding-top: 20%;
@@ -156,6 +160,8 @@
   background-color: rgb(128, 128, 128, 0.7);
   
 }
+
+/* Estilos links visitar */
 .loco {
 	color:rgb(255, 255, 255);
   text-decoration: none;
@@ -166,6 +172,8 @@
   color: #fff;
   font-size: larger;
 }
+
+/* Estilos redes footer */
 .redes ul{
   display:flex;
   flex-direction: row;
@@ -181,13 +189,14 @@
   
 }
 
+/* llamada fuente neon */
 @font-face {
   font-family: neon-future;
   src: url(neon-future.regular.ttf);
 }
 
 
-
+/* Animacion flecha  */
 @keyframes flecha {
   0% {
     opacity: 1;
@@ -198,6 +207,7 @@
   }
 }
 
+/* media querys */
 @media screen and (max-width:768px){
   .logoini img{
     width: 50%;

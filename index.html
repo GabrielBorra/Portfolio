@@ -20,45 +20,47 @@
 
 
 <body bg-black>
-        <!-- Boostrap Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    
-    <!-- Nav bar -->
+  <!-- Main -->
+    <div class="main">
+      <!-- Header -->
+      <header class="sticky-top">
+
+        <!-- Nav bar -->
   
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top border-bottom border-white " id="navbar">
-        <div class="container-fluid ">
+        <nav class="navbar navbar-expand-lg navbar-light  border-bottom border-white " id="navbar">
+          <div class="container-fluid ">
           
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i class="fas fa-stream"></i></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active text-white " aria-current="page" href="#sobremi">Sobre mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#proye">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="Contacto.html">Contacto</a>
-              </li>
-              
-            </ul>
-          </div>
-          <nav class="navbar navbar-light " id="titulo">
-            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fas fa-stream"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-white " aria-current="page" href="#sobremi">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#proye">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="Contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            <nav class="navbar navbar-light " >
+              <div class="container-fluid">
                 <a class="navbar-brand text-white m-0" href="#">
-                <img src="imagenes/logonegro.jpg" alt="" width="200" height="60" class="d-inline-block align-text-top">
-        
-                </a>
-             </div>
-          </nav>
-        </div>
-      </nav>
+                <img src="imagenes/logonegro.jpg" alt="" width="200" height="60" class="d-inline-block align-text-top"></a>  
+              </div>
+            </nav>
+          </div>
+        </nav>
+      </header>
+
       <!-- Inicio -->
+
       <div class="container-fluid bg-black text-white pt-5  pb-3">
         
         <div class="row padi">
@@ -73,17 +75,18 @@
       <div class="flecha"></div>
       <div class="buttons">
         <ul>
-          <li><a href="https://www.facebook.com/gabriel.borra.9" ><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="https://twitter.com/Gaabrielborra" ><i class="fab fa-twitter"></i></a></li>
-          <li><a  href="https://www.instagram.com/gaabrielborra/" ><i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://github.com/GabrielBorra" ><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.facebook.com/gabriel.borra.9" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/Gaabrielborra" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a  href="https://www.instagram.com/gaabrielborra/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://github.com/GabrielBorra" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="index.html"><i class="fas fa-home"><p class="fs-6 text-center">Inicio</p></i></a></li>
         </ul>
       </div>
       <!-- Sobre mi -->
       <div class="gradient">
           <div id="sobremi" class="container-fluid text-white pt-5 pb-5 m-auto">
-            <div class="row pb-5 pt-5">
-              <div class="col-md-4 m-auto pb-5">
+            <div class="row pb-5 pt-5 m-auto ">
+              <div class="col-md-4 m-auto pb-5 ">
                <h3 class="txneon">S o b r e  m i</h3>
                 <p>Soy Hector Gabriel Borra, soy programador Full Stack, y tengo experiencia en diseño, 
                 tengo 24 años y soy de Entre Rios, Gualeguaychu. 
@@ -95,15 +98,17 @@
 
                 </p>
               </div>
-              <div class="col-md-4 pb-5 ">
-                <img class="border border-white rounded-3 borderneon" src="imagenes/IMG_20210509_162353.jpg" alt="" width="200px" height="auto">
-              </div>
+              <div class="col-md-4 m-auto p-4">
+                <div class="container m-auto p-4">
+                  <img class="border border-white rounded-3  borderneon" src="imagenes/IMG_20210509_162353.jpg" alt="" width="240px"  height="auto">
+                </div>
+            </div>
             </div>
           </div>  
         <!-- Skills -->
-        <div id="skills" class="container-fluid pb-5 pt-5 text-white">
-          <div class="row">
-            <div class="col-md-3 pb-5 pt-5 m-auto ">
+        <div id="skills" class="container-fluid pb-5 pt-5 text-white m-auto">
+          <div class="row m-auto">
+            <div class="col-md-4 pb-5 pt-5 m-auto ">
               <h3 class="txneon">S k i l l s</h3>
               <p>A lo largo de mi recorrido por el aprendizaje enfocado en el diseño y desarrollo de paginas web,
               he logrado familiarizarme con muchas herramientas utiles a la hora de crear,
@@ -111,7 +116,7 @@
               a cabo una posible solucion.
               </p>
             </div>
-            <div class="col-md-5 pb-5 pt-5 pe-5">
+            <div class="col-md-4 pb-5 pt-5 m-auto">
               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators ">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -165,7 +170,7 @@
         </div>
       </div>
       <!-- Proyectos -->
-      <div id="proye" class="container-fluid text-center text-white back pt-5 bor">
+      <div id="proye" class="container-fluid text-center text-white back pt-5 bor ">
             <div  class="col-md-4 pt-5 m-auto">
             <h3 class="neon">.::Proyectos - realizados::.</h3>
             </div>
@@ -176,7 +181,7 @@
             <div class="card-img-overlay hov">
               <h5 class="card-title">Vegan Studio Code</h5>
               <p class="card-text ">Visita este proyecto de un emprendimiento de comida vegana.</p>
-              <a class="loco neon" href="https://vigilant-hamilton-01b39f.netlify.app/">.::V i s i t a r::.</a>
+              <a class="loco neon" href="https://vigilant-hamilton-01b39f.netlify.app/" target="_blank">.::V i s i t a r::.</a>
             </div>
           </div>
           <div class="card bg-dark text-white">
@@ -184,7 +189,7 @@
             <div class="card-img-overlay hov">
               <h5 class="card-title">Animacion Goku</h5>
               <p class="card-text">Disfruta de esta animacion en puro Css de el mejor anime de todos los tiempos.</p>
-              <a class="loco neon" href="https://silly-volhard-fd07a8.netlify.app/">.::V i s i t a r::.</a>
+              <a class="loco neon" href="https://silly-volhard-fd07a8.netlify.app/" target="_blank">.::V i s i t a r::.</a>
             </div>
           </div>
           <div class="card bg-dark text-white">
@@ -192,7 +197,7 @@
             <div class="card-img-overlay hov">
               <h5 class="card-title">Hamburguesa CSS</h5>
               <p class="card-text">Proyecto sencillo de una hamburguesa en css.</p>
-              <a class="loco neon" href="https://kind-lamarr-9ad233.netlify.app/">.::V i s i t a r::.</a>
+              <a class="loco neon" href="https://kind-lamarr-9ad233.netlify.app/" target="_blank">.::V i s i t a r::.</a>
             </div>
           </div>
         </div>
@@ -202,7 +207,7 @@
             <div class="card-img-overlay hov">
               <h5 class="card-title">Mundo Geek</h5>
               <p class="card-text">Formulario de inscripcion al primer congreso nerd de programadores.</p>
-              <a class="loco neon" href="https://optimistic-archimedes-632a07.netlify.app/">.::V i s i t a r::.</a>
+              <a class="loco neon" href="https://optimistic-archimedes-632a07.netlify.app/" target="_blank">.::V i s i t a r::.</a>
             </div>
           </div>
           <div class="card bg-dark text-white">
@@ -210,38 +215,47 @@
             <div class="card-img-overlay hov">
               <h5 class="card-title">Adopcion Miau-Gua</h5>
               <p class="card-text">Pagina de adopcion para gatos y perros en proceso. Adopta, no compres.</p>
-              <a class="loco neon" href="https://practical-gates-ca5caf.netlify.app/">.::V i s i t a r::.</a>
+              <a class="loco neon" href="https://practical-gates-ca5caf.netlify.app/" target="_blank">.::V i s i t a r::.</a>
             </div>
           </div>
           <div class="card bg-dark text-white">
             <img src="imagenes/tur.jpg" class="card-img" alt="...">
             <div class="card-img-overlay hov">
               <h5 class="card-title">Quiero Turismo</h5>
-              <p class="card-text">Proyecto para agencia de viajes.</p>
-              <a class="loco neon" href="https://suspicious-cori-a61cc5.netlify.app/">.::V i s i t a r::.</a>
+                <p class="card-text">Proyecto para agencia de viajes.</p>
+                <a class="loco neon" href="https://suspicious-cori-a61cc5.netlify.app/" target="_blank">.::V i s i t a r::.</a>
+              </div>
             </div>
           </div>
-        </div>
 
+          </div>
         </div>
       </div>
-    </div>
- 
-    <div class="container-fluid bg-black text-white">
-      <div class="col-md-10 m-auto">
-        <div class="container m-auto redes pt-2">
-          <ul class="txneon">
-            <li><a href="https://www.facebook.com/gabriel.borra.9" ><i class="fab fa-facebook-f fs-1"></i></a></li>
-            <li><a href="https://twitter.com/Gaabrielborra" ><i class="fab fa-twitter fs-1"></i></a></li>
-            <li><a  href="https://www.instagram.com/gaabrielborra/" ><i class="fab fa-instagram fs-1"></i></a></li>
-            <li><a href="https://github.com/GabrielBorra" ><i class="fab fa-github fs-1"></i></a></li>
-          </ul>
+    </div>  
+    <!-- Footer -->
+
+    <footer>
+      <div class="container-fluid bg-black text-white">
+        <div class="col-md-10 m-auto">
+          <div class="container m-auto redes pt-2">
+            <ul class="txneon">
+              <li><a href="https://www.facebook.com/gabriel.borra.9" target="_blank"><i class="fab fa-facebook-f fs-1"></i></a></li>
+              <li><a href="https://twitter.com/Gaabrielborra" target="_blank"><i class="fab fa-twitter fs-1"></i></a></li>
+              <li><a  href="https://www.instagram.com/gaabrielborra/" target="_blank"><i class="fab fa-instagram fs-1"></i></a></li>
+              <li><a href="https://github.com/GabrielBorra" target="_blank"><i class="fab fa-github fs-1"></i></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-        <div class="col text-center">
-          <footer> © Derechos reservados HGB Studio ©</footer>
-      </div>
-  </div>
+      
+        
+          <div class="col text-center pb-1">
+            <p > ©Derechos reservados Hector Gabriel Borra© <br> ©Realizado en Programa Desde Tu Casa - 2021©</p>
+          </div>
+        </div>  
+        </footer>
+
+        <!-- Boostrap Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
 </body bg-black>
 </html>
