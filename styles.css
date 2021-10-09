@@ -1,0 +1,217 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+  
+}
+#navbar{
+    padding: 0;
+    background-color: black;
+}
+
+#titulo{
+   padding: 0;
+}
+
+
+ 
+.buttons {
+    position: fixed;
+    margin: 0;
+    right: 0;
+    top: 100px;
+    z-index: 2000;
+    
+  }
+  
+  .padi{
+      padding-bottom: 150px;
+  }
+  
+  .buttons ul {
+      
+    list-style: none;
+  }
+  .buttons ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    background: black;
+    color: white;
+    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+
+
+  .gradient{
+        background: #666664;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to bottom, #000000, #666664);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to bottom, #000000, #666664); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      ;
+      
+  }
+
+.back{
+    background: #666664;
+}
+
+.borderneon{
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  
+  box-shadow:
+  0 0 0.1vw  0.4vw #fff7f7,   
+  0 0 0.4vw  0.6vw #c772e9, 
+  0 0   4vw  0.4vw #710be5,
+  inset 0 0 1.5vw  0.4vw #710be5,
+  inset 0 0 0.4vw  0.2vw #c772e9,
+  inset 0 0 0.5vw  0.2vw #fff7f7;
+  border-radius: 1.5rem;
+}
+.txneon{
+  padding-top: 3%;
+  font-family: neon-future;
+  text-shadow: 
+  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+  .1vw 0vw   0vw #c772e9, .2vw 0vw   0vw #c772e9, .4vw 0vw   0vw #c772e9,
+  .1vw 0vw  .1vw #c772e9, .2vw 0vw  .1vw #c772e9, .4vw 0vw  .1vw #c772e9,
+  .1vw 0vw   2vw #c772e9, .2vw 0vw   2vw #c772e9, .4vw 0vw   2vw #c772e9, 
+  .1vw 0vw   1vw #710be5, .2vw 0vw   1vw #710be5, .4vw 0vw   5vw #710be5, 
+  .1vw 0vw   5vw #710be5, .2vw 0vw  20vw #710be5, .4vw 0vw  10vw #710be5,
+  .1vw 0vw  10vw #710be5, .2vw 0vw  30vw #710be5, .4vw 0vw  10vw #710be5;
+}
+.neon{
+  padding-top: 3%;
+  font-family: neon-future;
+  box-shadow:
+  0 0 0.1vw  0.4vw #fff7f7,   
+  0 0 0.4vw  0.6vw #c772e9, 
+  0 0   4vw  0.4vw #710be5,
+  inset 0 0 1.5vw  0.4vw #710be5,
+  inset 0 0 0.4vw  0.2vw #c772e9,
+  inset 0 0 0.5vw  0.2vw #fff7f7;
+  border-radius: 1.5rem;
+  text-shadow: 
+  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+  .1vw 0vw   0vw #c772e9, .2vw 0vw   0vw #c772e9, .4vw 0vw   0vw #c772e9,
+  .1vw 0vw  .1vw #c772e9, .2vw 0vw  .1vw #c772e9, .4vw 0vw  .1vw #c772e9,
+  .1vw 0vw   2vw #c772e9, .2vw 0vw   2vw #c772e9, .4vw 0vw   2vw #c772e9, 
+  .1vw 0vw   1vw #710be5, .2vw 0vw   1vw #710be5, .4vw 0vw   5vw #710be5, 
+  .1vw 0vw   5vw #710be5, .2vw 0vw  20vw #710be5, .4vw 0vw  10vw #710be5,
+  .1vw 0vw  10vw #710be5, .2vw 0vw  30vw #710be5, .4vw 0vw  10vw #710be5;
+
+}
+.bor{
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.flecha,
+.flecha:before {
+  position: absolute;
+  left: 50%;
+}
+
+.flecha{
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  margin: -20px 0 0 -20px;
+  transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+  margin-top: 25vh;
+}
+
+.flecha:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: flecha
+}
+
+.hov{
+  opacity: 0;
+  padding-top: 20%;
+}
+.hov:hover{
+  opacity: 1;
+  background-color: rgb(128, 128, 128, 0.7);
+  
+}
+.loco {
+	color:rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 2%;
+
+}
+.loco:hover{
+  color: #fff;
+  font-size: larger;
+}
+.redes ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.redes ul li{
+  list-style: none;
+  padding-right:10%;
+}
+.redes a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+@font-face {
+  font-family: neon-future;
+  src: url(neon-future.regular.ttf);
+}
+
+
+
+@keyframes flecha {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
+}
+
+@media screen and (max-width:768px){
+  .logoini img{
+    width: 50%;
+  }
+.carou{
+  margin: auto;
+}
+.buttons {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  
+}
+.fa-stream{
+  color: white;
+}
+}
